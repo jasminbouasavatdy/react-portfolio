@@ -23,7 +23,7 @@ export default function Footer() {
     <>
       <footer className='text-center' style={styles.footer}>
         <h2 style={styles.h2}>Contact Me</h2>
-        <a className='px-2' style={styles.a} href="https://github.com/jasminbouasavatdy/portfolio-website">
+        <a className='px-2' style={styles.a} href="https://github.com/jasminbouasavatdy">
           <FaGithub/>
           </a>
         <a style={styles.a}href="https://www.linkedin.com/in/jasmin-bouasavatdy-0a9559227/">
