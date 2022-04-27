@@ -42,7 +42,7 @@ export default function Contact() {
         </div>
         <div className="form-group container ">
           <div className="col-12 col-form-label text-right">
-            <button name="submit" type="submit" className=" btn-block btn btn-warning">Submit</button>
+            <button name="submit" type="submit" className=" btn-block btn btn-primary">Submit</button>
           </div>
         </div>
       </form>
