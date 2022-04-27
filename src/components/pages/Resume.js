@@ -1,9 +1,26 @@
 import React from 'react';
 
-export default function Blog() {
+const styles = {
+  card: {
+    margin: 20,
+    background: '#e8eaf6',
+  },
+  heading: {
+    background: '#3f51b5',
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: '1.2rem',
+    color: 'white',
+    padding: '0 20px',
+  },
+  content: {
+    padding: 20,
+  },
+};
+export default function Resume() {
   return (
-    <div>
-      <h1>Blog Page</h1>
+    <div style={styles.card}>
+      <h1 style={styles.heading}>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu

@@ -1,9 +1,33 @@
 import React from 'react';
-
-export default function Home() {
+import Chiron from '../../images/Chiron-portfolio.png';
+const styles = {
+  card: {
+    margin: 20,
+    background: '#e8eaf6',
+  },
+  heading: {
+    background: '#3f51b5',
+    minHeight: 50,
+    lineHeight: 3.5,
+    fontSize: '1.2rem',
+    color: 'white',
+    padding: '0 20px',
+  },
+  content: {
+    padding: 20,
+  },
+  // img: {
+  //   overflow:'scroll'
+  // }
+};
+export default function Portfolio() {
   return (
-    <div>
-      <h1>Home Page</h1>
+    <div style={styles.card}>
+      <h1 style={styles.heading}>Portfolio</h1>
+
+      <img class="img-fluid"src={Chiron} alt="Chiron Site"></img>
+      <img class="img-fluid"src={Chiron} alt="Chiron Site"></img>
+      <img class="img-fluid"src={Chiron} alt="Chiron Site"></img> <img class="img-fluid"src={Chiron} alt="Chiron Site"></img>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
