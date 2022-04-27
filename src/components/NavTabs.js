@@ -3,18 +3,23 @@ import React from 'react';
 const styles = {
   nav: {
     display: 'flex',
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     margin: 20,
     background: '#e8eaf6',
   },
-  
+  h1: {
+    color:'#3f51b5',
+    fontSize:'50px'
+  }
 };
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <>
+      <h1 style={styles.h1}className='text-center pt-5'>Jasmin Bouasavatdy</h1>
+  
     <ul className="nav nav-tabs" style={styles.nav}>
-      <h1>Jasmin's Portfolio</h1>
-      <li className="nav-item">
+      <li className="nav-item px-2">
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -24,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item px-2">
         <a
           href="#Portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -35,10 +40,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item px-2">
         <a
           href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
 
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -46,11 +50,10 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item px-2">
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
-          //  TODO: Add a comment explaining what this logic is doing
 
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
@@ -58,6 +61,8 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+
+    </>
   );
 }
 
