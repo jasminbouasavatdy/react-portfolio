@@ -29,21 +29,26 @@ export default function Portfolio() {
     <div className="text-center py-4"style={styles.card}>
       <h1 style={styles.heading}>Portfolio</h1>
 
+        <p>Chiron Web Application</p>
       <div style={styles.projectContainer} className='projectContainer'>
       <a href="https://polar-peak-28753.herokuapp.com/">
         <img class="img-fluid" src={Chiron} alt="Chiron Site"></img>
         </a>
       </div>
+      <p>Binge-Watching Web Application</p>
       <div style={styles.projectContainer} className='projectContainer'>
       <a href="https://jasminbouasavatdy.github.io/binge-watching/">
         <img class="img-fluid" src={Bw} alt="Binge-Watching Site"></img>
         </a>
       </div>
+      <p>Moon Web Application</p>
       <div style={styles.projectContainer} className='projectContainer'>
         <a href='https://jasminbouasavatdy.github.io/mini_project_1/'>
         <img class="img-fluid" src={Moon} alt="Moon Site"></img>
         </a>
-      </div><div style={styles.projectContainer} className='projectContainer'>
+      </div>
+      <p>CSS Snippet Project</p>
+      <div style={styles.projectContainer} className='projectContainer'>
         <a href="https://jasminbouasavatdy.github.io/css-snippet/">
         <img class="img-fluid" src={Css} alt="CSS Snippet "></img>
         </a>
