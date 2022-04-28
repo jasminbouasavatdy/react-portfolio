@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7720ab7.css",
-    "main.js": "/static/js/main.b9efe5a4.js",
-    "index.html": "/index.html",
-    "main.e7720ab7.css.map": "/static/css/main.e7720ab7.css.map",
-    "main.b9efe5a4.js.map": "/static/js/main.b9efe5a4.js.map"
+    "main.css": "/react-portfolio/static/css/main.e7720ab7.css",
+    "main.js": "/react-portfolio/static/js/main.b91d3079.js",
+    "static/media/Chiron-portfolio.png": "/react-portfolio/static/media/Chiron-portfolio.ec7934953e540e3433ce.png",
+    "static/media/moonStanding.png": "/react-portfolio/static/media/moonStanding.f5078e7bd7dd845068a4.png",
+    "static/media/bw.png": "/react-portfolio/static/media/bw.e08e06642489f3e357f4.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.1021bb09ee3311eaea54.pdf",
+    "static/media/Profile_Pic_2.jpg": "/react-portfolio/static/media/Profile_Pic_2.a93f39fb9b3ab86dca44.jpg",
+    "static/media/csssnippet.png": "/react-portfolio/static/media/csssnippet.f28e7391c617e15299de.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.e7720ab7.css.map": "/react-portfolio/static/css/main.e7720ab7.css.map",
+    "main.b91d3079.js.map": "/react-portfolio/static/js/main.b91d3079.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.b9efe5a4.js"
+    "static/js/main.b91d3079.js"
   ]
 }
